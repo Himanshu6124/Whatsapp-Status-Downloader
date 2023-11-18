@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74CC78"
+    tools:context=".splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/whatsapp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="50dp"
+
+            android:src="@drawable/download">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main"
+        android:text="Status Downloader"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:textSize="40sp">
+
+    </TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
